@@ -29,8 +29,8 @@ html.reveal-full-page {
 	line-height: 1;
 	margin: 0;
 
-	background-color: #fff;
-	color: #000;
+	// background-color: #fff; 
+	// color: #000; 
 }
 
 // Force the presentation to cover the full viewport when we
@@ -646,7 +646,6 @@ $controlsArrowAngleActive: 36deg;
 
 	overflow: visible;
 	z-index: 1;
-	text-align: center;
 	perspective: 600px;
 	perspective-origin: 50% 40%;
 }

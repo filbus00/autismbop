@@ -11,53 +11,140 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/simple.css" />
+    <!-- <link rel="stylesheet" href="dist/theme/black.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="custom.css" />
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>
-          <h6>Autism inom vuxenpsykiatrin</h6>
-          <h6>Forskning, klinisk erfarenhet och identifiering</h6>
-          <h6>Föreläsning av: Leg. psykolog Maria Carlstedt PTP-psykolog Filip Busic</h6>
+        <section class="hero is-fullheight is-info p-6 is-flex">
+          <h1 class="title is-1">Autism inom vuxenpsykiatrin</h1>
+          <h3 class="subtitle is-3">Identifiering och diagnosticering</h3>
+          <div class="block mt-auto">
+            <p>Föreläsning av:</p>
+            <p>PTP-psykolog Filip Busic</p>
+            <p>Leg. psykolog Maria Carlstedt</p>
+          </div>
         </section>
-        <section>
-          <h6>Prevalens</h6>
-          <ul>
-            <li>Prevalence of Autism Spectrum Disorders in Adult Outpatient Psychiatry (2022)</li>
-            <li>
-              Johan Nyrenius, Jonas Eberhard, Mohammad Ghaziuddin, Christopher Gillberg, Eva
-              Billstedt.
-            </li>
-            <li>Prevalens 18.9% (+5-10%)</li>
-          </ul>
-          <ul>
-            <li>
-              Neurodevelopmental disorders and comorbidity in young adults attending a psychiatric
-              outpatient clinic (2022)
-            </li>
-            <li>David Eberhard, Eva Billstedt, Christopher Gillberg.</li>
-            <li>Prevalens 20%</li>
-          </ul>
-          <ul>
-            <li>Autism and autistic traits in those who died by suicide in England (2022)</li>
-            <li>Cassidy S, Au-Yeung S, Robertson A et al.</li>
-            <li>Signifikanta symtom på autism i 41% av fallen</li>
-          </ul>
-          <ul>
-            <li>
-              Characterizing autistic traits in treatment-seeking young adults with substance use
-              disorders (2022)
-            </li>
-            <li>James McKowen, Diana Woodward, Amy M Yule et al.</li>
-            <li>SRS-2 kliniskt signifikanta resultat för 20%</li>
-          </ul>
+
+        <!-- SECTION 2 -->
+        <section class="hero is-fullheight is-info p-6 is-flex">
+          <h1 class="title is-1">Prevalens</h1>
+          <div class="tile is-ancestor">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box has-background-info is-outlined">
+                <p class="title is-4 has-text-white">
+                  Prevalence of Autism Spectrum Disorders in Adult Outpatient Psychiatry (2022)
+                </p>
+                <p class="subtitle is-5 has-text-white">
+                  Johan Nyrenius, Jonas Eberhard, Mohammad Ghaziuddin, Christopher Gillberg, Eva
+                  Billstedt.
+                </p>
+                <div class="field is-grouped is-grouped-multiline pt-auto">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-dark has-text-weight-bold">n</span>
+                      <span class="tag is-light has-text-weight-bold">562</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-primary has-text-weight-bold">AST</span>
+                      <span class="tag is-light has-text-weight-bold">18.9-35% (+5-10%)</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-danger has-text-weight-bold">OBS</span>
+                      <span class="tag is-danger-light has-text-weight-bold">
+                        Bejerot s, Nylander L (2022)
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="tile is-child box has-background-info is-outlined">
+                <p class="title is-4 has-text-white">
+                  Neurodevelopmental disorders and comorbidity in young adults attending a
+                  psychiatric outpatient clinic (2022)
+                </p>
+                <p class="subtitle is-5 has-text-white">
+                  David Eberhard, Eva Billstedt, Christopher Gillberg.
+                </p>
+                <div class="field is-grouped is-grouped-multiline pt-auto">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-dark has-text-weight-bold">n</span>
+                      <span class="tag is-light has-text-weight-bold">172</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-primary has-text-weight-bold">AST</span>
+                      <span class="tag is-light has-text-weight-bold">20%</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-primary has-text-weight-bold">ADHD</span>
+                      <span class="tag is-light has-text-weight-bold">53%</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              </div>
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box has-background-info is-outlined">
+                <p class="title is-4 has-text-white">
+                  Autism and autistic traits in those who died by suicide in England (2022)
+                </p>
+                <p class="subtitle is-5 has-text-white">
+                  Cassidy S, Au-Yeung S, Robertson A et al.
+                </p>
+                <div class="field is-grouped is-grouped-multiline pt-auto">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-dark has-text-weight-bold">n</span>
+                      <span class="tag is-light has-text-weight-bold">29</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-primary has-text-weight-bold">Misstänkt AST</span>
+                      <span class="tag is-light has-text-weight-bold">41%</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="tile is-child box has-background-info is-outlined">
+                <p class="title is-4 has-text-white">
+                  Characterizing autistic traits in treatment-seeking young adults with substance
+                  use disorders (2022)
+                </p>
+                <p class="subtitle is-5 has-text-white">
+                  James McKowen, Diana Woodward, Amy M Yule et al.
+                </p>
+                <div class="field is-grouped is-grouped-multiline pt-auto">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-dark has-text-weight-bold">n</span>
+                      <span class="tag is-light has-text-weight-bold">69</span>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-primary has-text-weight-bold">Misstänkt AST</span>
+                      <span class="tag is-light has-text-weight-bold">20%</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
         </section>
         <section>
           <h6>Orsaker till missad diagnos</h6>
@@ -139,8 +226,9 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-		disableLayout: true,
-		center: false,
+        disableLayout: true,
+        center: false,
+        progress: false,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
