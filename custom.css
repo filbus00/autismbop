@@ -1,16 +1,5 @@
-html {
-  color: hsl(0, 0%, 96%);
-}
 .reveal {
   text-align: left;
-  background-color: #209cee;
-}
-hr {
-  border: 0;
-  height: 0;
-  margin: 0;
-  margin-bottom: 1em;
-  border-top: 1px solid transparent;
 }
 mark {
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-10&color=ff335cc7);
@@ -19,10 +8,13 @@ mark {
   color: white;
   font-weight: 600;
 }
-.columns {
-  height: 70vh;
-}
 li {
   list-style-type: none;
+  margin-bottom: 1em;
+}
+.scroll {
+  display: block;
+  flex-direction: column;
+  overflow: scroll;
   margin-bottom: 1em;
 }
