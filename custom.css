@@ -17,10 +17,10 @@
 }
 mark {
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-10&color=ff335cc7);
-
   padding:  4px 6px 7px 6px;
   color: white;
   font-weight: 600;
+  font-size: 1.2em;
 }
 li {
   list-style-type: none;
